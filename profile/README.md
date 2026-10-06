@@ -107,9 +107,9 @@ For repository-specific questions or contributions, follow that repository's doc
 
 If you are building consequential, human-facing AI and need to understand where people struggle—and whether your changes help—let's connect.
 
-Website : https://quorloop.com/evaluate
-LinkedIn : https://www.linkedin.com/company/quorloop
-Email : hello@quorloop.com
+- Website : https://quorloop.com/evaluate
+- LinkedIn : https://www.linkedin.com/company/quorloop
+- Email : hello@quorloop.com
 
 ---
 
