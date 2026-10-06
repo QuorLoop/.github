@@ -1,188 +1,116 @@
-# CosentriQ
-**Organizational Intelligence Infrastructure**
+# QuorLoop
 
-Organizations don't need more AI tools. They need their intelligence made accessible.
+Helping teams build consequential AI people can use, understand, and appropriately rely on.
 
----
+Before people interact with your AI, include them first.
 
-## About CosentriQ
+## About QuorLoop
 
-CosentriQ is the first platform built on **OAI³** (Organizational Ambient Intelligence Infrastructure) principles—designed to help organizations activate the intelligence they already possess.
+A technically correct AI response does not always lead to a successful human interaction.
 
-We don't sell AI tools. We provide the **infrastructure intelligence** that makes AI adoption coherent, measurable, and sustainable.
+People may misunderstand an answer, miss an important limitation, follow a recommendation without appropriate verification, abandon a task, or struggle to recognize when human support is needed.
 
-## The Problem We Solve
+QuorLoop helps teams evaluate this gap between model performance and human experience.
 
-**80% of AI initiatives fail**—not because of bad technology, but because of organizational misalignment.
+We are building an evaluation platform and approach that combines scenario-based testing, simulation where useful, and structured evaluation with relevant people. We connect findings to product changes and help teams test whether those changes improve the experience.
 
-Most organizations face:
-- Fragmented AI experiments across departments
-- Intelligence siloed in disconnected tools
-- No visibility into whether AI is actually working
-- Decisions made without organizational context
-- $3K+/month in tools that don't talk to each other
+Our focus is consequential, human-facing AI: products whose interactions can meaningfully affect people's decisions, opportunities, or access to services.
 
-**The crisis isn't AI. The crisis is adopting AI without coherent infrastructure.**
+## What We Evaluate
 
-## How CosentriQ Works
+We examine specific interactions across realistic tasks, user contexts, and conditions.
 
-CosentriQ maps your organization's operating architecture—decision systems, intelligence flows, coordination mechanisms—then identifies where AI can be safely and effectively activated.
+Evaluation questions include:
 
-As AI is introduced, CosentriQ continuously monitors system coherence, ROI, and risk, ensuring intelligence compounds rather than fragments.
+- Can people understand the response and its limitations?
+- Can they identify and complete an appropriate next step?
+- Do they recognize when to verify information or seek human support?
+- Where does the interaction create confusion or misplaced reliance?
+- What causes task abandonment or unintended action?
+- Does a proposed product change improve the tested experience?
 
-### The Journey
+The unit of evaluation is the human–AI interaction—not just the model's answer.
 
-**Phase 0: Goal Alignment**  
-Define what you're actually trying to achieve (revenue growth, operational efficiency, scale objectives)
+### Our evaluation workflow
 
-**Phase 1: Infrastructure Discovery**  
-Map how intelligence flows through your organization today
+1. Define the scope  
+   Identify the AI feature or workflow, intended users, relevant contexts, and questions the evaluation needs to answer.
 
-**Phase 2: Opportunity Identification**  
-Surface AI opportunities ranked by goal impact, feasibility, and strategic fit
+2. Develop realistic scenarios  
+   Build tasks and conditions that probe the interaction, including consequential edge cases.
 
-**Phase 3: Architecture & Blueprint**  
-Design intelligence systems optimized for your specific objectives
+3. Examine product behavior  
+   Evaluate how the AI responds within the agreed scope. Use simulation where useful to explore scenarios and potential failure points.
 
-**Phase 4: Guided Activation**  
-Implement AI with human oversight and continuous goal-progress tracking
+4. Evaluate with relevant people  
+   Use structured tasks to examine how participants understand, respond to, and act on the experience.
 
-**Phase 5: Continuous Evolution**  
-Monitor system coherence and adapt as your organization changes
+5. Connect findings to improvements  
+   Identify changes to prompts, output design, guardrails, workflows, or escalation paths.
 
-## What Makes CosentriQ Different
+6. Re-test selected changes  
+   Assess whether changes improve the interaction and document what remains unresolved.
 
-| Traditional AI Adoption | CosentriQ Approach |
-|------------------------|-------------------|
-| AI as external tool | AI as interface to organizational intelligence |
-| Organization adapts to AI | AI adapts to organization |
-| Intelligence from models | Intelligence from organization |
-| Generic recommendations | Context-aware synthesis |
-| One-size-fits-all | Unique to each organization |
-| Set it and forget it | Continuous monitoring and evolution |
+### Evidence and limitations
 
-## Core Technology
+We distinguish between:
 
-### CAGAs (Context-Aware Growth Agents)
-Seven specialized reasoning engines that analyze organizational state:
-- **Alignment** - Does this serve your goals?
-- **Human Capacity** - Will this support or strain your team?
-- **Technical Infrastructure** - Is your foundation ready?
-- **Privacy & Compliance** - Are there regulatory concerns?
-- **Operational Risk** - What could break?
-- **Financial Impact** - What's the ROI?
-- **Opportunity Ranking** - What should you do first?
+- Simulated behavior and observed participant behavior.
+- Observations and interpretations.
+- Potential failure points and demonstrated problems.
+- Proposed improvements and improvements supported by follow-up testing.
 
-### CLAGAs (Cognitive Load Aware Growth Agents)
-AI agents that detect human cognitive load in real-time and adapt delivery to preserve cognitive wellbeing—ensuring organizational intelligence enhances rather than overwhelms decision-making.
+Simulation does not replace evaluation with relevant people. A scoped evaluation does not establish that a product is safe, reliable, or effective for every person or context.
 
-### MIA (Multifactorial Intelligence Alignment)
-The orchestration layer that personalizes organizational intelligence to your specific context, culture, and constraints.
+## Who We Build For
 
-## Who We Serve
+QuorLoop is for teams developing human-facing AI assistants, copilots, agents, and decision-support products.
 
-**Primary:** Non-technical SME leaders (10-500 employees)
-- Founders, CEOs, COOs, VPs of Operations
-- Organizations experimenting with AI but seeing fragmented results
-- Teams that need clarity on what to fix first
-- Leaders who value understanding *why* over just being told *what*
+We are especially interested in interactions that shape access to:
 
-**Industries:**
-- HealthTech
-- FinTech
-- Professional Services
-- SaaS
-- Agencies
+- Healthcare.
+- Public benefits.
+- Legal services.
+- Education.
+- Work.
 
-## Products
+The starting point is a concrete interaction and a question—not a blanket claim about an entire product.
 
-### M-OAI³ Diagnostic
-A 48-hour organizational intelligence assessment that maps how intelligence flows through your organization and identifies your highest-ROI next move.
+### Community AI evaluator network
 
-**What you get:**
-- OAI³ Maturity Level assessment (1-5)
-- Intelligence Health Score (0-100)
-- 7-domain intelligence analysis
-- Top 3 ranked opportunities with clear sequencing
-- Private intelligence dashboard
+As part of this work, we are building a paid community AI evaluator network across New York City.
 
-[Learn more →](https://cosentriq.com)
+We train everyday people to contribute their perspectives through structured evaluation tasks.
 
-### CosentriQ Foundation (Subscription)
-Ongoing organizational intelligence monitoring and evolution.
+The network supports the evaluation process. Participant access alone is not the product: the work includes defining questions, designing tasks, analyzing evidence, recommending changes, and assessing whether those changes help.
 
-### Implementation Services
-Guided support to execute the opportunities identified in your diagnostic.
+## This GitHub Organization
 
-## Built on OAI³
+This organization is the home for QuorLoop's development work and any resources we choose to publish.
 
-OAI³ (Organizational Ambient Intelligence Infrastructure) is the foundational framework that recognizes organizations as living intelligence systems.
+Each public repository should describe its purpose, development status, setup requirements, limitations, and license.
 
-CosentriQ is the first platform that operationalizes OAI³ principles—making organizational intelligence visible, actionable, and adaptive.
+Do not assume that material is open source or available for unrestricted reuse; consult the license and documentation in the relevant repository.
 
-📖 [Read the full OAI³ framework](https://github.com/OAI3)
+### Collaboration
 
-## Responsible AI Principles
+We welcome conversations with:
 
-CosentriQ is architected around three non-negotiable principles:
+- AI product and engineering teams exploring a scoped evaluation.
+- Researchers working on human–AI interaction and evaluation methods.
+- Community organizations interested in the NYC evaluator network.
+- Contributors interested in resources explicitly opened for collaboration.
 
-**1. Human-in-the-Loop by Design**  
-Every recommendation includes human decision-making and oversight as a requirement, not an option.
+For repository-specific questions or contributions, follow that repository's documentation and contribution guidelines.
 
-**2. Transparency as Default**  
-AI decision-making is visible and understandable to non-technical stakeholders.
+## Connect
 
-**3. Accountability as Infrastructure**  
-Clear ownership and responsibility built into every implementation.
+If you are building consequential, human-facing AI and need to understand where people struggle—and whether your changes help—let's connect.
 
-These aren't marketing claims—they're architectural decisions that make CosentriQ defensible, sustainable, and compliant.
-
-## Why CosentriQ Will Win
-
-✅ **Solving the right problem** - Business problems, not engineering problems  
-✅ **Category creation** - Defining a new market (OAI³), not competing in an existing one  
-✅ **Accessible economics** - $499-$2K/month vs. $50K+ consulting  
-✅ **Data moat** - Proprietary organizational intelligence patterns  
-✅ **Novel research IP** - CLAGAs represent genuinely new territory in AI  
-✅ **Founder-market fit** - NSF recognition, Columbia degree, $1M+ ARR track record  
-
-## Resources
-
-🌐 [Website](https://cosentriq.com)  
-📬 [M-OAI³ Diagnostic](https://cosentriq.com/diagnostic)  
-📖 [OAI³ Framework](https://github.com/OAI3)  
-💼 [LinkedIn](https://linkedin.com/company/cosentriq)  
-
-## Contributing
-
-CosentriQ's core platform is proprietary, but we actively contribute to the OAI³ framework and welcome collaboration on organizational intelligence research.
-
-For framework contributions, see the [OAI³ repository](https://github.com/OAI3).
-
-## About the Founder
-
-**Ariana Abramson (Ari)**  
-Founder & CEO
-
-- Recognized by the National Science Foundation for ethical AI systems development
-- Master's degree from Columbia University
-- Previously scaled DivySci to $1M+ ARR serving regulated industries
-- Creator of the OAI³ framework and category
-
-## Contact
-
-**Questions about CosentriQ?**  
-- Website: [cosentriq.com](https://cosentriq.com)
-- Email: [hello@cosentriq.com]
-- LinkedIn: [company page]
-
-**Questions about OAI³?**  
-See the [OAI³ organization](https://github.com/OAI3)
+Website : https://quorloop.com/evaluate
+LinkedIn : https://www.linkedin.com/company/quorloop
+Email : hello@quorloop.com
 
 ---
 
-**Version:** 2.0  
-**Last Updated:** January 2026  
-**Status:** Active Development
-
-**CosentriQ operates on OAI³ principles:** Intelligence is contextual. Communication is infrastructure. Organizations are living intelligence systems. Every organization has a unique flow.
+Status: In development.
